@@ -1,0 +1,106 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.mainmenu{
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.leftmenu img{
+    width: 108px;
+    height: 23px;
+}
+.leftmenu a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #262626;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+.leftmenu a:hover{
+    text-decoration: underline;
+}
+.rightmenu a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #262626;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+.rightmenu a:hover{
+    text-decoration: underline;
+}
+.bigpic{
+    width: 1600px;
+    height: 900px;
+    background-image: url("mid.jpg");
+    background-size: 1600px 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigpic button{
+    width: 100px;
+    height: 40px;
+    background-color: #005ca5;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bigpic .bigtext{
+    width: 500px;
+    height: 90px;
+    padding-top: 215px;
+    padding-left: 80px;
+}
+.mid{
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+.mid img{
+    width: 100%;
+}
+.mid h1{
+    font-size: 29px;
+}
+.mid p{
+    font-size: 16px;
+}
+.mid a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #42aae6;
+}
+.mid .firstart{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+.mid .secondart{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.mid .thirdart{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.mid .fourthart{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
