@@ -1,0 +1,57 @@
+body{
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.headerbox{
+    margin: auto;
+    border: 3px black;
+    padding: 15px;
+    padding-left: 50px;
+    background-color: black;
+    color: gray;
+}
+.title{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 50px;
+}
+.newbox{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.newbox input{
+    font-size: 20px;
+    width: 60%;
+    height: auto;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+}
+.newbox span{
+    background-color: rgb(51, 122, 183);
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 10px;
+}
+.newbox span:hover{
+    background-color: rgb(62, 155, 236);
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+ul {
+    margin: auto;
+    width: 50%;
+    padding: 0;
+    list-style: none;
+    font-size: 25px;
+}
+ul li{
+    text-align: center;
+    border: 2px solid gray;
+}
+ul li.checked{
+    text-decoration:line-through;
+}
