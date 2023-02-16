@@ -1,0 +1,135 @@
+body{
+    width: auto;
+    height: 703px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    background: #fafafa;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main{
+    padding-bottom: 32px;
+    padding-left: 20px;
+}
+.logbox{
+    width: 348px;
+    height: 301px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: white;
+    margin-bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    margin-top: 60px;
+}
+.login{
+    margin-top: 24px;
+    height: 188px;
+}
+.login img{
+    width: 175px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.login input{
+    width: 250px;
+    height: 20px;
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #fafafa;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    font-size: 12px;
+}
+.login input:focus{
+    border: 2px;
+}
+.login button{
+    width: 268px;
+    height: 32px;
+    margin: 8px 40px 8px 40px;
+    background-color: #4db5f9;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+.logbox a {
+    width: 348px;
+    height: 16px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+.signbox{
+    width: 348px;
+    height: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+.signbox p{
+    text-align: center;
+    font-size: 14px;
+}
+.signbox p a{
+    text-decoration: none;
+    color: #00b2f9;
+}
+.appbox{
+    text-align: center;
+    width: 350px;
+    height: 95px;
+}
+.appbox p{
+    font-size: 14px;
+}
+.sub{
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    bottom: 0px;
+    height: 82px;
+    margin-bottom: 52px;
+}
+.sub{
+    text-align: center;
+}
+.sub .more{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sub .more a{
+    color: #8e8eaa;
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+}
+.sub .end{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sub .end .lang{
+    margin: 5px;
+    
+}
+.sub .end .language{
+    color: #8e8eaa;
+    border: 0px;
+    background-color: #fafafa;
+}
+.sub .end .copyright{
+    color: #8e8eaa;
+    margin: 5px;
+    font-size: 12px;
+}
