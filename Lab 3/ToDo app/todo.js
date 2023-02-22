@@ -12,6 +12,14 @@ list.addEventListener('change', function(myCheckBox) {
         myCheckBox.target.classList.toggle('checked');
     }
 });
+let checked = document.getElementsByClassName("highcheckbox");
+let j;
+for(j = 0;j<checked.length;j++){
+    checked[i].onclick = function(){
+        var div = this.parentElement;
+        div.target.classList.toggle('checked');
+    }
+}
 function newElement(){
     let item = document.createElement('li');
     let inputVal = document.getElementById("userInput").value;
@@ -19,7 +27,7 @@ function newElement(){
     let checkbox = document.createElement('input');
         checkbox.type = "checkbox";
         checkbox.value = 1;
-        checkbox.name = "todo[]";
+        checkbox.className = "highcheckbox"
     item.appendChild(checkbox);
     item.appendChild(temp);
     if(inputVal===''){
