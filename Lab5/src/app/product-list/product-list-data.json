@@ -1,0 +1,27 @@
+[
+    {
+        "id":0,
+        "name":"Part",
+        "link":"subcategory"
+    },
+    {
+        "id":1,
+        "name":"TV",
+        "link":"subcategory"
+    },
+    {
+        "id":2,
+        "name":"Home",
+        "link":"subcategory"
+    },
+    {
+        "id":3,
+        "name":"Mobile",
+        "link":"subcategory"
+    },
+    {
+        "id":4,
+        "name":"Misc",
+        "link":"subcategory"
+    }
+]
