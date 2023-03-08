@@ -1,0 +1,9 @@
+<div *ngIf="albumdetail">
+    {{userinfo | json}}
+    <a class="button"
+    [routerLink]="['/albums', albumdetail.id]"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page">
+    Return
+    </a>
+</div>

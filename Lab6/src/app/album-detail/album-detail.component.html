@@ -1,0 +1,32 @@
+<div *ngIf="albumdetail">
+    <h2>
+        Title : {{albumdetail.title}}
+    </h2>
+    <p>
+        ID : {{albumdetail.id}}
+    </p>
+    <p>
+        User ID : {{albumdetail.userId}}
+    </p>
+    <a class="button"
+        [routerLink]="['/albums', albumdetail.id,'photos']"
+        routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">
+        Photos
+    </a>
+    <div>
+        Change The Title
+        <input type="text" id="edit">
+        <button (onclick)="onEdit()">
+            save
+        </button>
+    </div>
+    <div>
+        <a class="button"
+        routerLink="/albums"
+        routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">
+        Return
+    </a>
+    </div>
+</div>
